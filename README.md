@@ -1,1 +1,1 @@
-Generate Random bitcoin address with balance check instantly
+Generate Random bitcoin address and private key in hex with balance check instantly
