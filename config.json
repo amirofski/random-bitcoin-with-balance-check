@@ -1,0 +1,48 @@
+{
+  "general": {
+    "threads": 4,
+    "log_level": "INFO",
+    "check_interval": 1,
+    "encryption_enabled": true,
+    "output_file": "found_keys.txt"
+  },
+  "blockchains": {
+    "bitcoin": {
+      "enabled": true,
+      "endpoints": [
+        "https://blockchain.info/q/addressbalance/",
+        "https://blockstream.info/api/address/"
+      ],
+      "timeout": 10,
+      "address_type": "p2pkh"
+    },
+    "ethereum": {
+      "enabled": true,
+      "endpoints": [
+        "https://eth.blockscout.com/api",
+        "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
+      ],
+      "timeout": 10,
+      "chain_id": 1
+    },
+    "solana": {
+      "enabled": false,
+      "endpoints": [
+        "https://api.mainnet-beta.solana.com"
+      ],
+      "timeout": 10
+    },
+    "litecoin": {
+      "enabled": false,
+      "endpoints": [
+        "https://blockchair.com/litecoin/api/v1/dashboards/address/"
+      ],
+      "timeout": 10
+    }
+  },
+  "notifications": {
+    "log_to_file": true,
+    "log_to_console": true,
+    "save_found_keys": true
+  }
+}
