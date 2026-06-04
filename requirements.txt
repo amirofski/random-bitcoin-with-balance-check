@@ -1,5 +1,5 @@
 bit==0.7.1
-requests==2.31.0
+requests==2.33.0
 pycryptodome==3.19.0
 solders==0.18.0
 base58==2.1.1
