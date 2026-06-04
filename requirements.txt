@@ -3,6 +3,6 @@ requests==2.31.0
 pycryptodome==3.19.0
 solders==0.18.0
 base58==2.1.1
-ecdsa==0.18.0
+ecdsa==0.19.2
 mnemonic==0.21
 web3==6.11.3
